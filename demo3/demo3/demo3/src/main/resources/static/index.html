@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8"/>
+		<title>Hello AngularJS</title>
+		<script src="angular.min.js"></script>
+		<script src="hello.js"></script>  	
+	</head>
+
+	<body>
+		<div ng-app="demo" ng-controller="hello">
+          <input ng-model="customerName">
+          <button ng-click="callingGreeting(customerName)">What's your name</button>
+          <p>{{greeting}}</p>
+       </div>
+	</body>
+
+</html>
+

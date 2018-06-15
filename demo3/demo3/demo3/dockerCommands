@@ -1,0 +1,102 @@
+  484  systemctl start docker 
+  485  systemctl status docker.service 
+  486  systemctl enable docker 
+  488  systemctl start docker 
+  882   systemctl enable firewalld
+ 1004* history |grep system 
+ 1005  history |grep system > ~/dockerCommands
+  475  docker info
+  477  sudo docker info
+  481  cd /etc/docker
+  484  systemctl start docker 
+  485  systemctl status docker.service 
+  486  systemctl enable docker 
+  487  service docker start
+  488  systemctl start docker 
+  490  docker run hello-world
+  496  docker
+  498  docker
+  499  docker info
+  500  history |grep docker run
+  501  history |grep "docker run"
+  502  docker run hello-world
+  504  mkdir dockerfiles-example
+  505  cd dockerfiles-example/
+  507  rm -rf dockerfiles-example/
+  509  mkfir demo4-dockerfilw
+  510  mkdir demo4-dockerfile
+  511  cd demo4-dockerfile/
+  513  docker-compose -f docker-compose-pull-images.yml pull --parallel
+  515  vi docker-compose-pull-images.yml
+  516  docker-compose -f docker-compose-pull-images.yml pull --parallel
+  525  cd demo4-dockerfile
+  527  vi docker-compose-pull-images.yml 
+  528  rm docker-compose-pull-images.yml 
+  531  docker image build -t demo4-image  .
+  540  cp /home/tnguyen2/demo4-dockerfile/Dockerfile .
+  541  docker image build -t demo4-image  .
+  545  docker image build -t demo4-image  .
+  546  docker image ls
+  547  docker container run demo4-image:latest
+  549  docker container run demo4-image:latest
+  550  docker image build -t demo4-image  .
+  551  docker container run demo4-image:latest
+  556  docker image build -t demo4-image  .
+  557  docker container run demo4-image:latest
+  558  docker container ls
+  559  docker image  ls
+  560  docker login
+  561  docker tag image acesdocker/demo:1
+  562  docker tag demo4-image  acesdocker/demo:1
+  563  docker image ls
+  564  docker push acesdocker/demo:1
+  565  docker run -p 4000:80  acesdocker/demo:1
+  568  docker image ls
+  580  git commit Dockerfile -m " adding docker file "
+  584  history |grep "docker push"
+  585  history |grep docker
+  586  docker imake ls
+  587  docker image ls
+  616  docker image ls
+  648  docker image ls
+  738  docker image ls
+  739  history |grep docker
+  740  docker run -p 4000:80  acesdocker/demo:1
+  741  docker image ls
+  794  docker image ls
+  795  history |grep docker
+  796  docker image ls
+  799  docker run -d --name gitlab-runner --restart always   -v /srv/gitlab-runner/config:/etc/gitlab-runner   -v /var/run/docker.sock:/var/run/docker.sock \
+  800  docker run -d --name gitlab-runner --restart always   -v /srv/gitlab-runner/config:/etc/gitlab-runner   -v /var/run/docker.sock:/var/run/docker.sock 
+  801  docker run -d --name gitlab-runner-config     -v /etc/gitlab-runner     busybox:latest \
+  802  docker run -d --name gitlab-runner-config     -v /etc/gitlab-runner     busybox:latest 
+  804  sudo docker run -d --name gitlab-runner-config     -v /etc/gitlab-runner     busybox:latest
+  823  history |grep docker 
+  835  history |grep docker
+  837  docker image ls
+  838  history |grep docker
+  846  sudo docker image ls
+  847  history |greo docker
+  848  history |grep docker
+  859  docker image ls
+  860  sudo docker image ls
+  862  history |grep docker
+  863  docker image ls
+  864  docker info
+  865  history |grep docker
+  867  history |grep docker
+  868  history |grep "docker exec"
+  871  docker exec -it gitlab-runner gitlab-runner register
+  873  docker exec -it gitlab-runner gitlab-runner register
+  879  history |grep docker
+  880  history |grep "docker exec"
+  881  docker exec -it gitlab-runner gitlab-runner register
+  965  history |grep docker
+  998  history |grep docker
+  999  history |grep docker > ~/dockeerCommands
+ 1000  history |grep docker > ~/dockerCommands
+ 1001  ls dockerCommands 
+ 1002  vi dockerCommands 
+ 1005  history |grep system > ~/dockerCommands
+ 1006  vi dockerCommands 
+ 1007  history |grep docker >> ~/dockerCommands
